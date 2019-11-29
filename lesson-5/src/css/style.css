@@ -1,21 +1,31 @@
 body{
-  background: url(https://cdn.oboi7.com/content/images/7b/36/7b36dc34a2946ab466fee09285678723aee46709.jpg) no-repeat center top #D2691E ; 
- 
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background: url(https://million-wallpapers.ru/wallpapers/1/65/15650858132982218467.jpg) no-repeat center top #D2691E fixed ;
+  padding: 5%;
+  
 }
 .block{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqlpV6e2V8ITxUVQPU5rTEBRqVTqrT1xrREAxQeZ4CZNq8rWZ&s);
   border: 4px groove #D2691E;
+  padding: 45px;
+}
+div{
+  display: block;
 }
 .text { 
   text-align:  center;  /* главный заголовок */
  }
-.text1{
+.text-1{
   margin-right: 25%;
   margin: 5px 5px 5px 5px;
 }
-.rightpic {
-  float: right;
-  margin: 0 10px 10px 10px; /* Отступы вокруг фотографии */
+.right-pic {
+  float: right ;
+  /* margin-top: 10%; */
+  margin: 2px 4px -10px 10px; /* Отступы вокруг фотографии */
  }
  /*................block.....................*/
 
@@ -23,43 +33,44 @@ body{
   text-align: center;
   font-size: 1.8em;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqlpV6e2V8ITxUVQPU5rTEBRqVTqrT1xrREAxQeZ4CZNq8rWZ&s);
-  border: 4px groove #D2691E;
+  
   margin: 0px 0px 5px 0px;
 } 
-.block2{
+.block-2{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqlpV6e2V8ITxUVQPU5rTEBRqVTqrT1xrREAxQeZ4CZNq8rWZ&s);
   border: 4px groove #D2691E;
-  margin: 5px 5px 5px 5px;
-  margin-right: 70%;
   position: fixed;
-  margin-top: -200px;
+  margin-top: 5px;
+  right: 14%;
 
 }
 
 /* ..............block...................... */
-.block3{
+.block-3{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLqlpV6e2V8ITxUVQPU5rTEBRqVTqrT1xrREAxQeZ4CZNq8rWZ&s);
   border: 4px groove #D2691E;
-  margin: 5px 5px 5px 5px;
-  margin-left: 30%;
+  margin: 5px 0px 0px 0px;
+  margin-right: 23%;
+  width: 78%;
 }
-.block4{
-  margin: 5px 5px 5px 5px;
+.block-4{
+  padding: 5px;
+ 
 }
 /* ..........color.......................... */
-.color1{
+.head-1{
   color: #6B8E23;
 }
-.color2{
+.head-2{
   color: #5F9EA0;
 }
-.color3{
+.head-3{
   color: #8B4513;
 }
-.color4{
+.head-4{
   color: #A52A2A;
 }
-.color5{
+.head-5{
   color: #DC143C;
 }
 
@@ -69,22 +80,25 @@ body{
   font-style: italic;
 }
 
-.back_off{
-  margin-left: 10%; 
+.back-off{
+   
   margin-right: 10%; 
  }
 .pointed{
   text-decoration: underline;
  }
-.pointed1{
+.pointed-1{
   text-decoration: line-through;
  }
 .fat{
   font-weight: bold;
  }
 .icon{
-  margin-left: 94%;
   position: fixed;
-  bottom: 5%;
+  margin-top: -2%;
+  /* margin-left: 70%; */
+ }
+ *{
+  box-sizing: border-box;
  }
  

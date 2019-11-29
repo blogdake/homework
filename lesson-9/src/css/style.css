@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  color:#333;
+}
+h2{
+  margin-top: 70px;
+  margin-bottom: 81px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.col-sm-12{
+  text-align: center;
+}
+.picture{
+  margin: auto;
+  height: 78px;
+  width: 65px;
+}
+img{
+  max-height: 78px;
+  max-width: 65px;
+}
